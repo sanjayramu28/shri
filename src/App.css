@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+.nav-image {
+  width: 30vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-email {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-logo {
+  height: 70px;
+  width: 50vh;
+  align-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-contact {
+  width: 70px;
+}
+
+.nav-Home li {
+  list-style-type: none;
+  justify-content: space-around;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.nav-image {
+  float: left;
+  height: 5vh;
+}
+
+.fontf {
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+.fontf a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-img {
+  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.1.11406635.1692806813&semt=ais');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-text {
+  padding: 100px 0px 0px 100px;
+  font-weight: bolder;
+  font-size: xx-large;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-text h3 {
+  font-family: 'Rubik Lines', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.ic a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons i {
+  border: 0px;
+  border-radius: 100px;
+  padding: 25px;
+  color: white;
+  background-image: linear-gradient(rgb(211, 16, 192), rgb(244, 232, 13));
+  font-size: 30px;
+}
+
+.ic {
+  justify-content: space-around;
+}
+
+.charger {
+  background-image: url('https://img.freepik.com/free-photo/wan-wlan-technology-connection-computers_1232-4122.jpg?size=626&ext=jpg&ga=GA1.1.1161449929.1704814302&semt=sph');
+  height: 50vh;
+  width: 100vh;
+  display: flex;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.router {
+  background-image: url('https://eu.dlink.com/in/en/-/media/product-pages/r/15/r15_a1_front.png?h=923&w=1171&la=en-IN&hash=2940C3AE6197068FF89C29D5D9DA25BF');
+  height: 50vh;
+  display: inline-flex;
+  width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wifi6 {
+  background-image: url('https://www.dlink.com/-/media/global-product-images/consumer/home-networking/routers/dir-x5460/product-preview/dir-x5460_1.png?h=820&la=en&w=1000&hash=FB3A02D0F03A7B871C3317C47671090F');
+  height: 50vh;
+  display: inline-block;
+  width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cctv {
+  background-image: url('https://in.dlink.com/-/media/obu-content/in/consumer/images/indigenousseries.png?h=625&la=en&w=1000&hash=484AE8B6656EB6B3F873347A5337428D');
+  height: 70vh;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tabs {
+  display: flex;
+  background-color: aqua;
+}
+
+.tabs button {
+  margin-left: 20vh;
+  margin-right: 20vh;
+
+}
+
+.tabs button:hover {
+  background-color: #666;
+  color: white;
+}
+
+.overall {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.price {
+  display: none;
+}
+
+.products-overall {
+  display: flex;
+  line-break: normal;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
